@@ -53,3 +53,15 @@ selectedColors[3] = 1
 console.log(selectedColors)
 console.log(selectedColors.length)
 console.log(typeof(selectedColors)) // Array is also an Object
+
+// Function
+function greet(name, lastName) {  // Parameter is variable declared for function
+    console.log('Hello, ' + name + ' ' + lastName)
+}
+greet('Dustin') // Argument is the actual value supplied to the function
+greet('Dustin', 'Henderson')
+
+function square(number) {
+    return number * number
+}
+console.log(square(2))
