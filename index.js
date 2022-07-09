@@ -28,3 +28,16 @@ console.log(typeof(nickName))   // undefined
 nickName = null
 console.log(nickName)
 console.log(typeof(nickName))   // object
+
+// Reference Types
+// - Object
+// - Array
+// - Function
+let person = {
+    name: 'Maxine',
+    age: 15
+}
+console.log(person)
+person.name = 'Lucas'
+person['age'] = 16
+console.log(person)
