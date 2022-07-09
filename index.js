@@ -33,6 +33,8 @@ console.log(typeof(nickName))   // object
 // - Object
 // - Array
 // - Function
+
+// Object
 let person = {
     name: 'Maxine',
     age: 15
@@ -41,3 +43,13 @@ console.log(person)
 person.name = 'Lucas'
 person['age'] = 16
 console.log(person)
+
+// Array
+let selectedColors = ['red', 'blue']
+console.log(selectedColors)
+console.log(selectedColors[0])
+selectedColors[2] = 'green'
+selectedColors[3] = 1
+console.log(selectedColors)
+console.log(selectedColors.length)
+console.log(typeof(selectedColors)) // Array is also an Object
