@@ -1,8 +1,8 @@
 // This is a comment
 console.log('Hello world!')
 
-let name = 'Max'
-console.log(name)
+let nickName = 'Max'
+console.log(nickName)
 
 let firstName = 'Maxine', lastName = 'Mayfield'
 
