@@ -1,5 +1,7 @@
 // This is a comment
 console.log('Hello world!')
 
-let name = 'Par'
+let name = 'Max'
 console.log(name)
+
+let firstName = 'Maxine', lastName = 'Mayfield'
